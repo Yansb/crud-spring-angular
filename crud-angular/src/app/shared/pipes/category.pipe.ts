@@ -10,6 +10,10 @@ export class CategoryPipe implements PipeTransform {
         return 'code';
       case 'back-end':
         return 'computer';
+      case 'dev-ops':
+        return 'settings';
+      case 'mobile':
+        return 'phone_iphone';
     }
     return 'code';
   }
